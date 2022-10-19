@@ -1,0 +1,35 @@
+{
+  "name": "logan-array-sort-ts",
+  "version": "1.0.0",
+  "description": "Sorting Array of types: String, Number, and Date using typescript",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "files": [
+    "lib /**/*"
+  ],
+  "keywords": [
+    "string",
+    "number",
+    "date",
+    "typescript",
+    "array",
+    "ts"
+  ],
+  "author": "Logan Carpenter",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logan-0/Logan-Array-Sort-Ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Logan-0/Logan-Array-Sort-Ts/issues"
+  },
+  "homepage": "https://github.com/Logan-0/Logan-Array-Sort-Ts#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}

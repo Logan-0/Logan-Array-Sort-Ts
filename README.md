@@ -1,34 +1,35 @@
-# The logan-array-sort-ts Package contains various methods for sorting arrays using TypeScript.
+# Simple Sorting Algorithms for Dates, Numbers, and Strings - By Logan
 
 ## 1. sortStringArray(arrayOfString: string[])
-- Takes one argument, array containing strings
-- `["Alphabet", "Car brand A", "Car brand B", "alphabet"]`
+- Takes one argument of array containing strings
 - Returns in alphabetical order, remember capital letters will be before lowercase
 - e.g. "Arial" will come before "arial"
+- `["Alphabet", "Car brand A", "Car brand B", "alphabet"]`
 
 ## 2. sortNumberArray(arrayOfNumbers: number[])
-- Takes one argument, array containing numbers
-- `[100,22,34,47,58,61]`
+- Takes one argument of array containing numbers
 - Returns lowest number first
+- `[100,22,34,47,58,61]`
 
 ## 3. sortDateArray(arrayOfStringDates: Date[])
-- Takes Takes one argument, array containing dates
-- Date Patterns for string array: "YYYY-MM-DD" -> ISO Standard, therefore, browser independent
-- `["YYYY-MM-DD", "YYYY-MM-DD", "YYYY-MM-DD", "YYYY-MM-DD"]`
+- Takes Takes one argument of array containing dates
+- Date Patterns for string array: "YYYY-MM-DD"
 - Returns the earlist date first
+- `["YYYY-MM-DD", "YYYY-MM-DD", "YYYY-MM-DD", "YYYY-MM-DD"]`
+
+
 
 
 ## Example Output
 
-
-### String array BEFORE sorting: 
+### String Array BEFORE Sorting: 
  `[ 'Alphabet', 'alphabet', 'Car brand A', 'Car brand B' ]`
 
-### String array AFTER sorting: 
+### String Array AFTER Sorting: 
 `[ 'Alphabet', 'Car brand A', 'Car brand B', 'alphabet' ]`
 
 
-### Number array BEFORE sorting:
+### Number Array BEFORE Sorting:
 ```
 [
   154, 229, 255, 201, 219, 171,  42, 170, 122, 170,  45, 250,
@@ -44,7 +45,7 @@
 ]
 ```
 
-### Number array AFTER sorting:
+### Number Array AFTER Sorting:
 ``` 
 [
     0,   0,   3,   5,  5,  9,  9,   9,   9,  10,  11,  12,
@@ -56,9 +57,16 @@
 ```
 
 
-### Date array BEFORE sorting:
-` [ '2000-01-01', '2010-10-10', '1850-08-26', '1066-05-02' ] `
+### Date Array After sorting:
+``` 
+[ '2000-01-01', 
+  '2010-10-10', 
+  '1850-08-26', 
+  '1066-05-02' ] 
+```
 
+
+### Date Array After Sorting:
 ```
 [
   1066-05-02T00:00:00.000Z,

@@ -1,6 +1,6 @@
 {
   "name": "logan-array-sort-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sorting Array of types: String, Number, and Date using typescript",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
